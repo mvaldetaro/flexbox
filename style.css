@@ -1,7 +1,31 @@
 .container {
     display: flex;
+    border: 5px solid #fff;
+    width: 800px;
 }
 
-.container div:nth-child(2){
-    order: -1;
+.container div {
+    margin: 0;
+    padding: 20px 0;
+    width: 100px;
+    flex-grow: 1;
 }
+
+
+.container div:nth-child(2) {
+    flex-grow: 3;
+}
+
+/*
+    Total de partes a serem divididas =6
+    cada parte = 66px;
+    cada elemento 
+        flex-grow = 1 => 66px
+        flex-grow = 3 => 66px * 3
+    
+    https://www.udemy.com/flexbox-guia-completo/learn/v4/t/lecture/9159354?start=0
+*/
+
+
+
+
