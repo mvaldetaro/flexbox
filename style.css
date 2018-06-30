@@ -1,8 +1,4 @@
 .container {
     display: flex;
-    /*flex-direction: column;*/
-    border: 5px solid white;
-    width: 500px;
-    /*flex-flow: <flex-direction> <flex-wrap>; */
-    flex-flow: row wrap;
+    justify-content: space-between;
 }
