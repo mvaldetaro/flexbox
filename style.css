@@ -3,5 +3,6 @@
     /*flex-direction: column;*/
     border: 5px solid white;
     width: 500px;
-    flex-wrap: wrap
+    /*flex-flow: <flex-direction> <flex-wrap>; */
+    flex-flow: row wrap;
 }
