@@ -1,17 +1,13 @@
 .container {
     display: flex;
-    border: 5px solid #fff;
-    width: 800px;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 
-.container div {
-    margin: 0;
-    padding: 20px 0;
-    /*
-    flex default: 0 1 auto
-    grow 0, srink 1, basis auto
-    */
-    flex: 1 1 100px;
+.container .box {
+    width: 300px;
 }
 
 .container div:nth-child(2) {
