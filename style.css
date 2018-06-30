@@ -1,17 +1,11 @@
 .container {
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.container .card {
-    width: 250px;
-    padding: 0;
-    text-align: left;
-}
-
-.card__content {
-    padding: 0 20px;
+.container main {
+    flex: 1 1 0;
 }
 
 
