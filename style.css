@@ -1,12 +1,28 @@
-.container {
+body.container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.container main {
-    flex: 1 1 0;
+.content  {
+    display: flex;
+    flex: 1;
 }
+
+.main {
+    flex: 1;
+}
+
+.sidebar,
+.ads {
+    flex-basis: 200px;
+}
+
+.sidebar {
+    order: -1;
+}
+
+
 
 
 
